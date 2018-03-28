@@ -63,6 +63,15 @@ title: Welcome to Stylus
       <input type="submit" value="Subscribe" class="btn btn-primary">
     </form>
   </div>
+<div id="testimonials">
+  <% data.testimonials.each do |testimonials|%>
+  <% image_tag testimonials.image_file, class: "img-circle" %>
+  <h3><%= testimonials.name %></h3>
+  <p><%= testimonials.content %></p>
+
+  <% end %>
+
+</div>
 
   <div id="map" style="width: 100%; height: 400px;"></div>
 

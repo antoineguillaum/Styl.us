@@ -1,0 +1,5 @@
+- name: Bill Gates
+  content: Best invention since computer
+  image_file: Billgates.jpg
+- name: Mickey
+  content: The most populary mouse
