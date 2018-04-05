@@ -3,7 +3,7 @@ title: Welcome to Stylus
 ---
 
 <body>
-  <div id="banner">
+  <div id="banner" class="appearIn">
     <h1>Styl.us</h1>
     <br>
     <p>Turn your pen into you best friend</p>
@@ -15,6 +15,7 @@ title: Welcome to Stylus
 
 
   </div>
+  <i class="fa fa-angle-down pulse" ></i>
   <div class="bg-green padded">
 
   <div class="container text-center">
@@ -67,7 +68,7 @@ title: Welcome to Stylus
       <input type="submit" value="Subscribe" class="btn btn-primary">
     </form>
   </div>
-<div id="testimonials">
+<div id="testimonials" class="slideExpandUp">
   <% data.testimonials.each do |testimonials|%>
   <% image_tag testimonials.image_file, class: "img-circle" %>
   <h3><%= testimonials.name %></h3>
